@@ -1,0 +1,62 @@
+[
+  {
+    "id": "clear",
+    "name": "Clear Skies",
+    "description": "Bright, calm weather that makes travel and foraging easier.",
+    "effects": {
+      "temperature": 2,
+      "tiredness": 0,
+      "visibility": 100
+    }
+  },
+  {
+    "id": "heavy_rain",
+    "name": "Heavy Rain",
+    "description": "Continuous heavy rain reduces visibility and makes staying warm more difficult.",
+    "effects": {
+      "temperature": -7,
+      "tiredness": 6,
+      "visibility": 45
+    }
+  },
+  {
+    "id": "fog",
+    "name": "Dense Fog",
+    "description": "Thick fog blankets the wilderness, making it easy to get lost.",
+    "effects": {
+      "temperature": -2,
+      "tiredness": 4,
+      "visibility": 25
+    }
+  },
+  {
+    "id": "heat_wave",
+    "name": "Heat Wave",
+    "description": "Oppressive heat increases thirst and makes physical activity exhausting.",
+    "effects": {
+      "temperature": 10,
+      "tiredness": 8,
+      "visibility": 85
+    }
+  },
+  {
+    "id": "snow",
+    "name": "Snowfall",
+    "description": "Cold snow covers the ground, draining warmth and making travel slower.",
+    "effects": {
+      "temperature": -12,
+      "tiredness": 10,
+      "visibility": 50
+    }
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "description": "Lightning and driving rain make open ground dangerous and rest difficult.",
+    "effects": {
+      "temperature": -8,
+      "tiredness": 12,
+      "visibility": 30
+    }
+  }
+]

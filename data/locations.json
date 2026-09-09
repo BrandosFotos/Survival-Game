@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pine_forest",
+    "name": "Pine Forest",
+    "description": "A dense forest containing pine trees, brush, and small streams.",
+    "resources": ["berries", "mushroom", "stick", "stone"],
+    "encounters": ["deer_sighting", "bear_encounter"],
+    "water_available": true
+  },
+  {
+    "id": "mountain_trail",
+    "name": "Mountain Trail",
+    "description": "A rocky path winding along a ridge with sparse vegetation and wide views.",
+    "resources": ["stone", "flint", "stick"],
+    "encounters": ["rockslide", "bear_encounter", "clear_skies_view"],
+    "water_available": false
+  },
+  {
+    "id": "lakeshore",
+    "name": "Lakeshore",
+    "description": "A quiet lake edge with reeds, driftwood, and a chance to fish.",
+    "resources": ["raw_fish", "stick", "fiber", "stone"],
+    "encounters": ["fish_jump", "storm_on_the_water"],
+    "water_available": true
+  },
+  {
+    "id": "meadow",
+    "name": "Open Meadow",
+    "description": "A sunny clearing filled with grasses, wildflowers, and berry bushes.",
+    "resources": ["berries", "fiber", "mushroom"],
+    "encounters": ["deer_sighting", "snake_in_the_grass", "foraging_haul"],
+    "water_available": false
+  },
+  {
+    "id": "river_bend",
+    "name": "River Bend",
+    "description": "A fast-moving stretch of river with a shallow crossing and plenty of fish.",
+    "resources": ["raw_fish", "stone", "stick", "fiber"],
+    "encounters": ["slippery_rocks", "injured_deer", "fish_jump"],
+    "water_available": true
+  },
+  {
+    "id": "caves",
+    "name": "Cave Entrance",
+    "description": "A dark overhang that offers shelter from weather but may hide wildlife.",
+    "resources": ["stone", "flint"],
+    "encounters": ["bat_colony", "bear_encounter", "found_supplies"],
+    "water_available": false
+  }
+]

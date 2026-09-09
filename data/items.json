@@ -1,0 +1,153 @@
+[
+  {
+    "id": "water_bottle",
+    "name": "Water Bottle",
+    "category": "consumable",
+    "description": "A bottle containing drinkable water.",
+    "effects": {
+      "thirst": 30
+    },
+    "quantity": 1
+  },
+  {
+    "id": "berries",
+    "name": "Wild Berries",
+    "category": "consumable",
+    "description": "A handful of edible berries found in the underbrush.",
+    "effects": {
+      "hunger": 10
+    },
+    "quantity": 1
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "category": "consumable",
+    "description": "A foraged mushroom. Some are filling, but eating the wrong one can make you sick.",
+    "effects": {
+      "hunger": 8
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cooked_fish",
+    "name": "Cooked Fish",
+    "category": "consumable",
+    "description": "A fish cooked over a fire. Restores hunger and is safer to eat than raw catch.",
+    "effects": {
+      "hunger": 25
+    },
+    "quantity": 1
+  },
+  {
+    "id": "raw_fish",
+    "name": "Raw Fish",
+    "category": "consumable",
+    "description": "A freshly caught fish. Can be cooked or eaten raw at a risk of sickness.",
+    "effects": {
+      "hunger": 12,
+      "sickness": 8
+    },
+    "quantity": 1
+  },
+  {
+    "id": "jerky",
+    "name": "Dried Jerky",
+    "category": "consumable",
+    "description": "Preserved meat that stores well and restores a moderate amount of hunger.",
+    "effects": {
+      "hunger": 20
+    },
+    "quantity": 1
+  },
+  {
+    "id": "herbal_tea",
+    "name": "Herbal Tea",
+    "category": "consumable",
+    "description": "A warm drink brewed from foraged herbs. Helps with thirst and mild sickness.",
+    "effects": {
+      "thirst": 15,
+      "sickness": -10
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bandage",
+    "name": "Bandage",
+    "category": "medical",
+    "description": "A simple cloth wrap used to treat cuts and scrapes.",
+    "effects": {
+      "health": 15
+    },
+    "quantity": 1
+  },
+  {
+    "id": "stick",
+    "name": "Stick",
+    "category": "material",
+    "description": "A sturdy wooden stick useful for crafting tools and starting fires.",
+    "effects": {},
+    "quantity": 1
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "category": "material",
+    "description": "A sharp or heavy stone that can be used as a tool or crafting component.",
+    "effects": {},
+    "quantity": 1
+  },
+  {
+    "id": "fiber",
+    "name": "Plant Fiber",
+    "category": "material",
+    "description": "Tough plant fibers that can be twisted into cordage or used in bandages.",
+    "effects": {},
+    "quantity": 1
+  },
+  {
+    "id": "flint",
+    "name": "Flint",
+    "category": "material",
+    "description": "A hard stone that sparks when struck, useful for starting fires.",
+    "effects": {},
+    "quantity": 1
+  },
+  {
+    "id": "fishing_rod",
+    "name": "Fishing Rod",
+    "category": "tool",
+    "description": "A simple rod for catching fish at lakes and rivers.",
+    "effects": {},
+    "quantity": 1
+  },
+  {
+    "id": "hatchet",
+    "name": "Hatchet",
+    "category": "tool",
+    "description": "A small axe for chopping wood and gathering sticks more efficiently.",
+    "effects": {},
+    "quantity": 1
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "category": "equipment",
+    "description": "A fire that provides warmth, light at night, and a way to cook food.",
+    "effects": {
+      "tiredness": -10,
+      "temperature": 8
+    },
+    "quantity": 1
+  },
+  {
+    "id": "shelter",
+    "name": "Makeshift Shelter",
+    "category": "equipment",
+    "description": "A crude lean-to that offers protection from weather and a place to rest.",
+    "effects": {
+      "tiredness": -25
+    },
+    "quantity": 1
+  }
+]
