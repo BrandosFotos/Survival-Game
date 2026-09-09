@@ -1,0 +1,86 @@
+[
+  {
+    "id": "injured_deer",
+    "name": "Injured Deer",
+    "type": "wildlife",
+    "description": "You discover an injured deer nearby.",
+    "possible_outcomes": ["leave_the_area", "approach_carefully"]
+  },
+  {
+    "id": "deer_sighting",
+    "name": "Deer Sighting",
+    "type": "wildlife",
+    "description": "A deer watches you from a distance before bounding away.",
+    "possible_outcomes": ["watch_quietly", "try_to_follow", "continue_on"]
+  },
+  {
+    "id": "bear_encounter",
+    "name": "Bear Encounter",
+    "type": "wildlife",
+    "description": "A black bear appears on the path ahead, blocking your way.",
+    "possible_outcomes": ["back_away_slowly", "make_noise", "hide"]
+  },
+  {
+    "id": "snake_in_the_grass",
+    "name": "Snake in the Grass",
+    "type": "wildlife",
+    "description": "Something rustles in the tall grass. A snake is nearby.",
+    "possible_outcomes": ["step_back", "freeze", "try_to_kill_it"]
+  },
+  {
+    "id": "fish_jump",
+    "name": "Fish Jump",
+    "type": "wildlife",
+    "description": "Fish break the surface nearby. This looks like a good place to fish.",
+    "possible_outcomes": ["cast_a_line", "keep_moving"]
+  },
+  {
+    "id": "rockslide",
+    "name": "Rockslide",
+    "type": "hazard",
+    "description": "Loose stones clatter down the slope toward you.",
+    "possible_outcomes": ["dive_aside", "brace_and_cover"]
+  },
+  {
+    "id": "slippery_rocks",
+    "name": "Slippery Rocks",
+    "type": "hazard",
+    "description": "Wet stones along the bank look unstable underfoot.",
+    "possible_outcomes": ["cross_carefully", "find_another_route"]
+  },
+  {
+    "id": "storm_on_the_water",
+    "name": "Storm on the Water",
+    "type": "hazard",
+    "description": "Wind picks up over the lake and rain starts to lash the shore.",
+    "possible_outcomes": ["seek_shelter", "keep_fishing"]
+  },
+  {
+    "id": "bat_colony",
+    "name": "Bat Colony",
+    "type": "wildlife",
+    "description": "A cluster of bats stirs in the dark of the cave.",
+    "possible_outcomes": ["leave_quietly", "explore_deeper"]
+  },
+  {
+    "id": "found_supplies",
+    "name": "Abandoned Supplies",
+    "type": "loot",
+    "description": "Someone left a small cache of supplies tucked under a rock.",
+    "possible_outcomes": ["take_what_you_need", "leave_it"]
+  },
+  {
+    "id": "foraging_haul",
+    "name": "Rich Foraging Patch",
+    "type": "loot",
+    "description": "You stumble onto a dense patch of berries and useful plants.",
+    "possible_outcomes": ["gather_quickly", "take_your_time"]
+  },
+  {
+    "id": "clear_skies_view",
+    "name": "Clear View from the Ridge",
+    "type": "exploration",
+    "description": "From the trail you can see several other areas of the wilderness.",
+    "possible_outcomes": ["scout_the_horizon", "keep_hiking"]
+  }
+]

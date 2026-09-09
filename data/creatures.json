@@ -1,0 +1,44 @@
+[
+  {
+    "id": "black_bear",
+    "name": "Black Bear",
+    "behavior": "territorial",
+    "danger_level": 5,
+    "habitats": ["pine_forest", "mountain_trail"]
+  },
+  {
+    "id": "white_tailed_deer",
+    "name": "White-tailed Deer",
+    "behavior": "skittish",
+    "danger_level": 1,
+    "habitats": ["pine_forest", "meadow", "river_bend"]
+  },
+  {
+    "id": "timber_wolf",
+    "name": "Timber Wolf",
+    "behavior": "pack_hunter",
+    "danger_level": 4,
+    "habitats": ["pine_forest", "mountain_trail"]
+  },
+  {
+    "id": "garter_snake",
+    "name": "Garter Snake",
+    "behavior": "defensive",
+    "danger_level": 2,
+    "habitats": ["meadow", "lakeshore"]
+  },
+  {
+    "id": "trout",
+    "name": "Trout",
+    "behavior": "passive",
+    "danger_level": 0,
+    "habitats": ["lakeshore", "river_bend"]
+  },
+  {
+    "id": "cave_bat",
+    "name": "Cave Bat",
+    "behavior": "startled",
+    "danger_level": 1,
+    "habitats": ["caves"]
+  }
+]
