@@ -27,7 +27,6 @@ The game is designed around resource management and decision-making. Players wil
 - **Illness & Sickness** — Poor conditions and environmental events can negatively affect the player's health.
 - **Exploration** — Travel between different wilderness locations to find resources and encounter new situations.
 
-### Stretch Goals
 - **High Scores** — Track and display successful survival runs.
 - **Save/Load** — Allow players to save their current game and continue it later.
 
